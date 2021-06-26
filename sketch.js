@@ -99,13 +99,13 @@ function keyPressed(){
     }
 }
 
-async function getBackgroundImg(){
+ function getBackgroundImg(){
 
-    var response= await fetch("http://worldtimeapi.org/api/timezone/Asia/kolkata");
-    var responseJSON= await response.json();
-    console.log(responseJSON);
-    var datetime=responseJSON.datetime;
-    console.log(datetime);
+  //  var response= await fetch("http://worldtimeapi.org/api/timezone/Asia/kolkata");
+   // var responseJSON= await response.json();
+    //console.log(responseJSON);
+   // var datetime=responseJSON.datetime;
+   // console.log(datetime);
     var time=6//datetime.slice(11,13);
     console.log(time);
     if(time >= 3&& time <=6){
