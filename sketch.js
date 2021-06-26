@@ -106,7 +106,7 @@ async function getBackgroundImg(){
     console.log(responseJSON);
     var datetime=responseJSON.datetime;
     console.log(datetime);
-    var time=datetime.slice(11,13);
+    var time=6//datetime.slice(11,13);
     console.log(time);
     if(time >= 3&& time <=6){
         backgroundImg=loadImage("sprites/early morning .jpeg");
